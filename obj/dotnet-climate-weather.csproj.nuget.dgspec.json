@@ -42,17 +42,9 @@
               "target": "Package",
               "version": "[2.1.15, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[7.0.13, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[5.1.1, )"
             }
           },
           "imports": [
@@ -67,9 +59,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
